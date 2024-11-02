@@ -1,0 +1,365 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1569665600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1107722300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to the application",
+            "match": {
+              "location": "StepDef.go_to_the_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-29T17:34:37.352Z",
+        "line": 8,
+        "name": "As a para bank user, login should success with valid credintials",
+        "description": "",
+        "id": "login-function-test;as-a-para-bank-user--login-should-success-with-valid-credintials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61532500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Put the valid user",
+            "match": {
+              "location": "StepDef.put_the_valid_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Put the valid password",
+            "match": {
+              "location": "StepDef.put_the_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152475700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on login btn",
+            "match": {
+              "location": "StepDef.click_on_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "login should pass and logout button should visible",
+            "match": {
+              "location": "StepDef.check_the_login_status_as_pass()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@TC_001"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 948930600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1234542600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to the application",
+            "match": {
+              "location": "StepDef.go_to_the_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-29T17:34:40.247Z",
+        "line": 14,
+        "name": "As a para bank user, login should fail with invalid credintials",
+        "description": "",
+        "id": "login-function-test;as-a-para-bank-user--login-should-fail-with-invalid-credintials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58906000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Put the invalid user",
+            "match": {
+              "location": "StepDef.put_the_invalid_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126472900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Put the invalid password",
+            "match": {
+              "location": "StepDef.put_the_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279936900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on login btn",
+            "match": {
+              "location": "StepDef.click_on_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "login should fail and error msg contains An internal error has occurred and has been logged.",
+            "match": {
+              "location": "StepDef.login_should_fail_and_error_msg_contains_An_internal_error_has_occurred_and_has_been_logged()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@TC_002"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 957133200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1151443500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to the application",
+            "match": {
+              "location": "StepDef.go_to_the_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-29T17:34:42.899Z",
+        "line": 21,
+        "name": "As a para bank user, login should fail with null credintials",
+        "description": "",
+        "id": "login-function-test;as-a-para-bank-user--login-should-fail-with-null-credintials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37139600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Put the null user",
+            "match": {
+              "location": "StepDef.put_the_null_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50644200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Put the null password",
+            "match": {
+              "location": "StepDef.put_the_null_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184401900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on login btn",
+            "match": {
+              "location": "StepDef.click_on_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "login should fail and msg contains Please enter a username and password.",
+            "match": {
+              "location": "StepDef.login_should_fail_and_msg_contains_Please_enter_a_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@TC_003"
+          }
+        ]
+      }
+    ],
+    "name": "Login function test",
+    "description": "",
+    "id": "login-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/parabankLogin.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@Functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  }
+]
